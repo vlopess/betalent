@@ -19,13 +19,13 @@ class SearchEmployeesContainer extends StatefulWidget {
 class _SearchEmployeesContainerState extends State<SearchEmployeesContainer> {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Container(      
       color: Colors.white,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: AppSpacing.regular),
+          SizedBox(height: AppSpacing.regular1),
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 18),
             child: Text("Funcionários", 
