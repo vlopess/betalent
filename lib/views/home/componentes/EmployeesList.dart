@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mobile/model/Employee.dart';
+import 'package:mobile/models/Employee.dart';
 import 'package:mobile/utils/AppColors.dart';
 import 'package:mobile/utils/AppSpacing.dart';
-import 'package:mobile/view/home/componentes/ContainerEmployee.dart';
+import 'package:mobile/views/home/componentes/ContainerEmployee.dart';
 
 class EmployeesList extends StatefulWidget {
   final List<Employee> employees;

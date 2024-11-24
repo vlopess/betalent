@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobile/componentes/TextDescription.dart';
-import 'package:mobile/model/Employee.dart';
+import 'package:mobile/models/Employee.dart';
 import 'package:mobile/utils/AppColors.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:intl/intl.dart';
@@ -22,7 +22,13 @@ class ContainerEmployee extends StatelessWidget {
         borderRadius: BorderRadius.circular(50),
         child: Image.network(
           height: 30,
-          employee.image,            
+          employee.image,       
+          fit: BoxFit.cover,     
+          loadingBuilder: (context, child, loadingProgress) {
+            if (loadingProgress == null) return child;
+            return Container(width: 30);
+          },
+          errorBuilder: (context,url,error) => const Icon(Icons.error),
         ),
       ),
       title: Padding(

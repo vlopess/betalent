@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:mobile/componentes/ErrorContainer.dart';
 import 'package:mobile/componentes/LoadingContainer.dart';
 import 'package:mobile/componentes/NotFoundContainer.dart';
-import 'package:mobile/controller/HomeController.dart';
-import 'package:mobile/model/Employee.dart';
-import 'package:mobile/view/home/componentes/EmployeesList.dart';
+import 'package:mobile/controllers/HomeController.dart';
+import 'package:mobile/models/Employee.dart';
+import 'package:mobile/views/home/componentes/EmployeesList.dart';
 
 class BuildEmployeesList extends StatelessWidget {
   final HomeController controller;

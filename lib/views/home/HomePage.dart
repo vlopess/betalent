@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mobile/controller/HomeController.dart';
+import 'package:mobile/controllers/HomeController.dart';
 import 'package:mobile/utils/AppAssets.dart';
 import 'package:mobile/utils/AppColors.dart';
-import 'package:mobile/view/home/componentes/BuildEmployeesList.dart';
-import 'package:mobile/view/home/componentes/ButtonWithBadge.dart';
-import 'package:mobile/view/home/componentes/SearchEmployeesContainer.dart';
+import 'package:mobile/utils/AppSpacing.dart';
+import 'package:mobile/views/home/componentes/BuildEmployeesList.dart';
+import 'package:mobile/views/home/componentes/ButtonWithBadge.dart';
+import 'package:mobile/views/home/componentes/SearchEmployeesContainer.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -63,7 +64,7 @@ class _HomePageState extends State<HomePage> {
               physics: const BouncingScrollPhysics(),
               child: Column(
                 children: [
-                  const SizedBox(height: 25),
+                  SizedBox(height: AppSpacing.regular1),
                   BuildEmployeesList(controller: controller),
                 ],
               ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobile/model/Employee.dart';
-import 'package:mobile/route/HomeRoute.dart';
+import 'package:mobile/models/Employee.dart';
+import 'package:mobile/routes/HomeRoute.dart';
 
 class HomeController extends ChangeNotifier {
   final TextEditingController textController = TextEditingController();
