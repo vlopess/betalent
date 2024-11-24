@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobile/componentes/TextDescription.dart';
 import 'package:mobile/model/Employee.dart';
 import 'package:mobile/utils/AppColors.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
@@ -29,35 +30,17 @@ class ContainerEmployee extends StatelessWidget {
         child: Text(employee.name),
       ),
       children: [
-        Padding(
-          padding: const EdgeInsets.all(15.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const Text("Cargo", style: TextStyle(fontWeight: FontWeight.bold),),
-              Text(employee.job),
-            ],
-          ),
+        TextDescription(
+          title: "Cargo",
+          value: employee.job,
         ),
-        Padding(
-          padding: const EdgeInsets.all(15.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const Text("Data de admissão", style: TextStyle(fontWeight: FontWeight.bold)),
-              Text(DateFormat('dd/MM/yyyy').format(employee.admissionDate)),
-            ],
-          ),
+        TextDescription(
+          title: "Data de admissão",
+          value: DateFormat('dd/MM/yyyy').format(employee.admissionDate),
         ),
-        Padding(
-          padding: const EdgeInsets.all(15.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const Text("Telefone", style: TextStyle(fontWeight: FontWeight.bold)),
-              Text(formatter.maskText(employee.phone)),
-            ],
-          ),
+        TextDescription(
+          title: "Telefone",
+          value: formatter.maskText(employee.phone),
         ),
       ],
     );
