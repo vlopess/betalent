@@ -33,29 +33,30 @@ class _EmployeesListState extends State<EmployeesList> {
                 color: AppColors.blueSecondary,
                 borderRadius: const BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10)),
               ),
-              child: Row(
-                children: [
-                  SizedBox(
-                    height: 50,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        SizedBox(width: AppSpacing.litle),
-                        const Padding(
-                          padding: EdgeInsets.all(8.0),
-                          child: Text("Foto", style: TextStyle(fontWeight: FontWeight.bold),),
-                        ),
-                        SizedBox(width: AppSpacing.regular),
-                        const Padding(
-                          padding: EdgeInsets.all(8.0),
-                          child: Text("Nome", style: TextStyle(fontWeight: FontWeight.bold)),
-                        ),
-                        SizedBox(width: AppSpacing.large),
-                      ],
+              child: Padding(
+                padding: const EdgeInsets.only(left: 10.0, right: 30.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    SizedBox(
+                      height: 50,
+                      child: Row(
+                        children: [
+                          const Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child: Text("Foto", style: TextStyle(fontWeight: FontWeight.bold),),
+                          ),
+                          SizedBox(width: AppSpacing.regular2),
+                          const Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child: Text("Nome", style: TextStyle(fontWeight: FontWeight.bold)),
+                          ),
+                        ],
+                      ),
                     ),
-                  ),
-                  const Icon(Icons.circle, size: 12)
-                ],
+                    const Icon(Icons.circle, size: 12),
+                  ],
+                ),
               ),
             ),
             ListView.separated(
