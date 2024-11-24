@@ -22,7 +22,7 @@ class CustomTextField extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(12.0),
           child: TextField(                                         
             decoration: InputDecoration(     
               prefixIcon: icon,              
