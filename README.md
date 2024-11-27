@@ -12,11 +12,11 @@ This project is a starting point for a Flutter application.
 
 ## 📸 Screenshot
 
-<img width="180px" src="https://github.com/user-attachments/assets/08b631ea-92c3-48b9-a311-309ab97c74b2"/>
-<img width="180px" src="https://github.com/user-attachments/assets/3bbfb251-2df3-494f-8980-d1370709a2cd"/>
-<img width="180px" src="https://github.com/user-attachments/assets/ee6e9038-5eb3-4d93-aa32-c06ae9de7f30"/>
-<img width="180px" src="https://github.com/user-attachments/assets/b5cebbd6-6f2f-4d8b-9cef-703b63368ec6"/>
-<img width="180px" src="https://github.com/user-attachments/assets/049de755-934f-4f0d-bef9-0a54d8e0a907"/>
+<img width="150px" src="https://github.com/user-attachments/assets/08b631ea-92c3-48b9-a311-309ab97c74b2"/>
+<img width="150px" src="https://github.com/user-attachments/assets/3bbfb251-2df3-494f-8980-d1370709a2cd"/>
+<img width="150px" src="https://github.com/user-attachments/assets/ee6e9038-5eb3-4d93-aa32-c06ae9de7f30"/>
+<img width="150px" src="https://github.com/user-attachments/assets/b5cebbd6-6f2f-4d8b-9cef-703b63368ec6"/>
+<img width="150px" src="https://github.com/user-attachments/assets/049de755-934f-4f0d-bef9-0a54d8e0a907"/>
 
 
 
