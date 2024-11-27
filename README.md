@@ -1,5 +1,8 @@
-# mobile
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0500ff&height=180&section=header"/>
 
+<h4 align="center">
+  <img src="assets/Logo.png" alt="Logo" width="150"/>
+</h4>
 A new Flutter project.
 
 ## Getting Started
@@ -14,3 +17,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0500ff&height=180&section=footer"/>
+
