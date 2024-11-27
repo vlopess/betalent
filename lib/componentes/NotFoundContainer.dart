@@ -23,7 +23,7 @@ class NotFoundContainer extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(Icons.person_search_sharp),
-            Text("Nehum funcionário encontrado!"),
+            Text("Nenhum funcionário encontrado!"),
           ],
         ),
       )
