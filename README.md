@@ -45,17 +45,53 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 ## Packages Utilizadas
 
+- **sdk: flutter**:   O projeto utiliza o SDK do Flutter como base para o desenvolvimento da aplicação.  
 
-## Estrutura de Pastas
-A estrutura do projeto foi organizada para garantir a separação lógica e a manutenção futura. Os principais diretórios são:
+- **cupertino_icons:**   Inclui ícones no estilo iOS para serem usados com widgets Cupertino, proporcionando uma aparência nativa no iOS.  
 
-- lib/: Contém o código-fonte da aplicação.
-- assets/: Armazena imagens e outros recursos estáticos.
+- **google_fonts:**   Permite o uso de fontes do Google na aplicação, facilitando a personalização da tipografia.  
+
+- **http:**   Biblioteca para realizar requisições HTTP, essencial para consumir dados da API simulada.  
+
+- **intl:**  Fornece ferramentas para internacionalização e formatação de datas, números e moedas, garantindo que os dados sejam exibidos no formato correto.  
+
+- **currency_text_input_formatter:** Utilizada para formatar campos de entrada de texto como valores monetários.  
+
+- **mask_text_input_formatter:** Permite aplicar máscaras em campos de texto, como formatação de telefones e datas, garantindo a entrada correta de dados pelo usuário.  
 
 ## Como Rodar o Projeto
 
+
+1. **Clone este repositório:**
+   ```bash
+   git clone https://github.com/vlopess/betalent.git
+   ```
+2. **Instale e inicie o json-server para consumir a API simulada:**
+   ```bash
+   cd betalent
+   cd API/
+   npm install json-server
+   npx json-server db.json  
+   cd desafio-mobile/
+   npx json-server --watch database.json
+   ```
+   
+2. **Execute o projeto Flutter:**
+  ```bash
+   flutter pub get  
+   flutter run  
+  ```
 ### Observações
 
+Configuração de IP e Caminho Parcial: A aplicação utiliza uma constante para definir o IP da API simulada e constrói dinamicamente o caminho base para as requisições.  
+
+> Importante: Certifique-se de que o IP esteja correto e acessível na sua rede local para que a aplicação consiga consumir os dados da API.
+
+```dart  
+static const String _ip = "192.168.10.14";  //_ip: Define o endereço IP da máquina que hospeda a API simulada.
+static String get _partialPath => "http://$_ip:3000";  
+
+```
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0500ff&height=180&section=footer"/>
 
