@@ -3,11 +3,10 @@
 <h4 align="center">
   <img src="assets/Logo.png" alt="Logo" width="150"/>
 </h4>
-A new Flutter project.
 
-## Getting Started
+## Teste Técnico Mobile BeTalent
 
-This project is a starting point for a Flutter application.
+Este projeto foi desenvolvido como parte do Teste Técnico Mobile da BeTalent, utilizando Flutter. Ele consiste na construção de uma interface que exibe uma tabela com dados provenientes de uma API simulada e funcionalidades de pesquisa e filtragem.
 
 
 ## 📸 Screenshot
@@ -18,17 +17,45 @@ This project is a starting point for a Flutter application.
 <img width="150px" src="https://github.com/user-attachments/assets/b5cebbd6-6f2f-4d8b-9cef-703b63368ec6"/>
 <img width="150px" src="https://github.com/user-attachments/assets/049de755-934f-4f0d-bef9-0a54d8e0a907"/>
 
+## Tecnologias utilizadas
+Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+![](https://skillicons.dev/icons?i=dart,flutter)
+
+### Funcionalidades Implementadas
+
+- [x]  Exibição de uma tabela com as colunas:
+- [x] Imagem (thumbnail do usuário);
+- [x] Nome;
+- [x] Cargo;
+- [x] Data de Admissão (formatada no frontend);
+- [x] Telefone (formatado no frontend).
+
+### Campo de pesquisa que permite filtrar por:
+- [x] Nome;
+- [x] Cargo;
+- [x] Telefone.
+
+## Pré-requisitos
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+- Flutter (3.24.5)
+- Dart
+- Git
+- json-server
+
+## Packages Utilizadas
 
 
+## Estrutura de Pastas
+A estrutura do projeto foi organizada para garantir a separação lógica e a manutenção futura. Os principais diretórios são:
 
-A few resources to get you started if this is your first Flutter project:
+- lib/: Contém o código-fonte da aplicação.
+- assets/: Armazena imagens e outros recursos estáticos.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Como Rodar o Projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Observações
+
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0500ff&height=180&section=footer"/>
 
