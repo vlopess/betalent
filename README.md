@@ -71,7 +71,6 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
    cd betalent
    cd API/
    npm install json-server
-   npx json-server db.json  
    cd desafio-mobile/
    npx json-server --watch database.json
    ```
